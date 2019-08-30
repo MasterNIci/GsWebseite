@@ -1,12 +1,18 @@
 /* main */
 
 body{
+  position: absolute;
   margin: 0;
   padding: 0;
   color: white;
   background-color: purple;
   min-height: 100vw;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
+
 
 nav{
   padding-top: 1vw;
@@ -21,7 +27,7 @@ nav{
   left: 0;
   right: 0;
   color: white;
-  opacity: 1;
+
 }
 
 li{
@@ -30,13 +36,11 @@ li{
   list-style: none;
   float: left;
   text-align: center;
-  opacity: 1;
   display: contents;
 }
 
 a{
   text-align: center;
-  opacity: 1;
   color: white;
   text-decoration: none;
   font-family: arial;
@@ -52,7 +56,6 @@ h1 {
   color: #00ffc6;
   font-family: arial black;
   text-align: center;
-  opacity: 0.8;
   font-size: 2.3vw;
 }
 
@@ -74,26 +77,26 @@ p{
 /* class */
 
 div.box1 {
-  height: -webkit-fill-available;
   position: absolute;
+  left: 0;
+  right: 0;
+  bottom:inherit;
   top: 6vw;
-  opacity: 0.9;
   display: inline-block;
   background-color:  #320533;
   float: left;
-  bottom: 3vw;
-  left: 10vw;
-  right: 10vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
   border-right: white;
-    border-left: white;
-    border-right-style: solid;
-    border-left-style: solid;
-    border-width: 0.1vw;
+  border-left: white;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-width: 0.1vw;
 }
 
 div.box2 {
   position: fixed;
-  opacity: 1;
+
   bottom: 0;
   background-color: hotpink;
   left: 0;
@@ -105,20 +108,18 @@ div.box2 {
 
 div.diegalerie{
   text-align: center;
-  display: inline-block;
   padding: 0;
   margin: 0;
+  display: inline-block;
 
 }
 
 div.bilderline{
-  width: 80vw;
+  width: 70vw;
   height: 40vw;
   background-color: red;
-  display: inline-block;
   text-align: center;
   float: left;
-  position: relative;
 }
 
 div.Herz{
@@ -138,6 +139,10 @@ div.center{
 
 }
 
+div.holder{
+  text-align: -webkit-center;
+
+}
 
 @keyframes blink {
   0%, 2%, 4%, 6%, 30%, 32%, 75%, 100% {opacity: 1}
