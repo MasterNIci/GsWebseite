@@ -82,6 +82,24 @@ div.box1 {
   right: 0;
   bottom:inherit;
   top: 6vw;
+  display: table;
+  background-color:  #320533;
+  float: left;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  border-right: white;
+  border-left: white;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-width: 0.1vw;
+}
+
+div.box11 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom:inherit;
+  top: 6vw;
   display: inline-block;
   background-color:  #320533;
   float: left;
@@ -111,19 +129,28 @@ div.diegalerie{
   padding: 0;
   margin: 0;
   display: inline-block;
-
+  left: 0;
+  right: 0;
 }
 
 div.bilderline{
-  width: 70vw;
+  margin: 5px;
   height: 40vw;
-  background-color: red;
-  text-align: center;
+  width: 40vw;
   float: left;
+  background-color: none;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 3px;
+}
+
+figure{
+  display: inline-block;
 }
 
 div.Herz{
-
+  margin-top: 1vw;
   width: 30vw;
   height: 30vw;
   border: 6px solid;
