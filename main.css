@@ -80,7 +80,6 @@ div.box1 {
   position: absolute;
   left: 0;
   right: 0;
-  bottom:inherit;
   top: 6vw;
   display: table;
   background-color:  #320533;
